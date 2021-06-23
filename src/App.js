@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './components/About';
+import Nav from './components/Nav';
 // import logo from './logo.svg';
 // import './App.css';
 // import { directive } from '@babel/types';
@@ -7,6 +8,7 @@ import About from './components/About';
 function App() {
   return (
     <div>
+      <Nav></Nav>
       <main>
         <About></About>
       </main>
